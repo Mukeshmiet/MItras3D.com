@@ -1,0 +1,98 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    /* color: rgb(43, 224, 122); */
+    color: rgb(144, 136, 136);
+    background-color: rgb(0, 0, 0);
+}
+
+.call-us , .email-us{
+    font-size: 14px;
+}
+
+.call-us-no, .email-us-email{
+    font-size: 16px;
+    color: rgb(188, 177, 177);
+}
+
+.whatsapp, .i-need-help{
+    font-size: 14px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-heading{
+    color: rgb(43, 224, 122);
+    font-size: 20px;
+}
+
+.sub-nav{
+    font-size: 13px;
+}
+
+.how-we-works{
+    width: 1510px;
+}
+
+.works-quote-head{
+    font-size: 65px;
+}
+
+.works-quote-head-para{
+    font-size: 25px;
+}
+
+.works-quote-offers{
+    font-size: 20px;
+}
+
+.works-quote-offers-button{
+    font-size: 35px;
+    color: rgb(43, 224, 122);
+}
+
+.featured-banners{
+    width: 1510px;
+    height: 200px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+.our-services-card p{
+    font-size: 16px;
+}
+
+.working-process{
+    font-size: 20px;
+}
+
+.indu-para{
+    font-size: 20px;
+}
+
+.query{
+    font-size: 24px;
+}
+
+.answer{
+    font-size: 20px;
+}
+
+.footer-nav-head{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.copyr{
+    font-size: 10px;
+}
