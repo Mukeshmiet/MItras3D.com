@@ -1,50 +1,110 @@
-*{
+/* !important > inline style html > id > class or pseudo(:) (last one) > element (last one) > universal */
+/* least priority to 1` change all elements */
+*{  
     font-family: 'DM Sans', sans-serif;
-    /* color: rgb(43, 224, 122); */
     color: rgb(144, 136, 136);
     background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0;
+    margin: 0 0;
+}
+/* Maintain order */
+
+a:hover, .sub-nav-text:hover {
+    color: rgb(43, 224, 122);
+    font-weight: bold;
+    text-decoration: underline wavy rgb(43, 224, 122);
+}
+
+a:active .sub-nav-text:hover{
+    font-style:italic;
+    color: orangered;
+    text-decoration: underline wavy orangered;
 }
 
 .call-us , .email-us{
     font-size: 14px;
 }
 
-.call-us-no, .email-us-email{
+a.call-us-no, a.email-us-email{
     font-size: 16px;
     color: rgb(188, 177, 177);
 }
 
 .whatsapp, .i-need-help{
     font-size: 14px;
+    
+}
+
+.header-all-value{
+    margin: 20px 0 20px;
+}
+
+.inside-header-value{
+    padding: 0 10px;
+}
+
+.nav-section{
+    margin: 0 0 10px;
 }
 
 .logo{
-    width: 200px;
+    width: 15%;
+    padding: 0 25px;
 }
 
 .nav-heading{
     color: rgb(43, 224, 122);
     font-size: 20px;
+    padding: 0 10px;
 }
 
 .sub-nav{
     font-size: 13px;
 }
 
-.how-we-works{
-    width: 1510px;
+.sub-nav-text{
+    padding: 0 15px;
+    margin: 8px 0 8px;
+}
+
+.works-section{
+    margin: 0 0 10px;
+}
+
+.how-we-works-image{
+    width: 100%;
+}
+
+.how-we-works-text{
+    padding: 0 40px;
 }
 
 .works-quote-head{
     font-size: 65px;
+    
+}
+
+h4{
+    margin: 12px 0 12px;
 }
 
 .works-quote-head-para{
     font-size: 25px;
 }
 
+.works-quote-head-para p{
+    margin: 12px 0 12px;
+}
+
 .works-quote-offers{
     font-size: 20px;
+    padding: 0 60px;
+    margin: 10px 0 10px;
+}
+
+.works-quote-offers li{
+    margin: 8px 0 8px;
 }
 
 .works-quote-offers-button{
@@ -52,47 +112,79 @@
     color: rgb(43, 224, 122);
 }
 
+.banners-section{
+    margin: 0 0 10px;
+}
+
 .featured-banners{
-    width: 1510px;
+    width: 100%;
     height: 200px;
 }
 
 h5 {
     font-size: 40px;
+    padding: 0 20px;
+    margin: 14px 0 14px;
 }
 
 h6 {
     font-size: 22px;
+    padding: 0 15px;
+    margin: 10px 0 10px;
 }
 
 .our-services-card p{
     font-size: 16px;
+    padding: 0 10px;
+    margin: 8px 0 8px;
 }
 
-.working-process{
+.working-process p{
     font-size: 20px;
+    padding: 0 15px;
+    margin: 10px 0 10px;
+}
+
+.products-images img{
+    padding: 0 15px;
+    margin: 15px 0 10px;
+    width: 13%;
 }
 
 .indu-para{
     font-size: 20px;
+    padding: 0 15px;
+    margin: 10px 0 10px;
 }
 
 .query{
     font-size: 24px;
+    padding: 0 15px;
+    margin: 10px 0 10px;
 }
 
 .answer{
     font-size: 20px;
+    padding: 0 40px;
+    margin: 10px 0 10px;
 }
 
 .footer-nav-head{
     font-size: 16px;
+    padding: 0 8px;
+    margin: 10px 0 10px;
 }
 
 h3{
     font-size: 14px;
+    padding: 0 8px;
+    margin: 10px 0 10px;
 }
 
-.copyr{
+#copyright{
     font-size: 10px;
+    text-align: center;
+    padding: 0 6px;
+    margin: 10px 0 10px;
 }
+
