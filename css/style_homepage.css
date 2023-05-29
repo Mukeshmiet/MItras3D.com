@@ -8,6 +8,12 @@
     padding: 0;
     margin: 0 0;
 }
+
+.body-container{
+    width: 99%;
+    margin: 10px 5px;
+}
+
 /* Maintain order */
 
 a:hover, .sub-nav-text:hover {
@@ -42,30 +48,44 @@ a.call-us-no, a.email-us-email{
 
 .inside-header-value{
     padding: 0 10px;
+    display: inline-block;
 }
 
-.nav-section{
+nav{
     margin: 0 0 10px;
+    display: inline;
+    vertical-align: 180%;
+    margin-left: 150px;
 }
 
 .logo{
+    display: inline;
+}
+.logo img{
     width: 15%;
     padding: 0 25px;
 }
 
+.main-nav{
+    display: inline-block;
+}
 .nav-heading{
     color: rgb(43, 224, 122);
     font-size: 20px;
-    padding: 0 10px;
+    padding-right: 50px;
 }
 
 .sub-nav{
     font-size: 13px;
+    display: none;
+    /* display:grid; */
 }
+
 
 .sub-nav-text{
     padding: 0 15px;
     margin: 8px 0 8px;
+    display: inline;
 }
 
 .works-section{
