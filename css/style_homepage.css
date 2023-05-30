@@ -28,88 +28,90 @@ a:active .sub-nav-text:hover{
     /* text-decoration: underline wavy orangered; */
 }
 
-.call-us , .email-us{
-    font-size: 14px;
-}
-
-a.call-us-no, a.email-us-email{
-    font-size: 16px;
-    color: rgb(188, 177, 177);
-}
-
-.whatsapp, .i-need-help{
-    font-size: 14px;    
-}
-
-.whatsapp{
-    padding-right: 700px;
-}
-
-.i-need-help{
-    padding-left: 120px;
-}
-
 .header-all-value{
     margin: 10px 0 0;
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(52, 51, 51);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 10px;
 }
 
 .inside-header-value{
     padding: 0 10px;
-    display: inline-block;
 }
 
-nav{
-    margin: 0 0 10px;
-    display: inline;
-    vertical-align: 100%;
-    margin-left: 130px;
+.inside-header-value.three{
+    flex: 1 1 30px;
 }
 
-.logo{
-    display: inline;
-}
-.logo img{
-    width: 15%;
-    padding-left: 30px;
-    padding-right: 150px;
+.call-us , .email-us{
+    font-size: 14px;
 }
 
-.main-nav{
-    display: inline-block;
+.i-need-help{
+    padding-right: 20px;
 }
+
+a.call-us-no, a.email-us-email{
+    font-size: 14px;
+    color: rgb(188, 177, 177);
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 60px;
+
+}
+
+.main-nav.logo{
+    flex: 0 1 400px;
+}
+
+.main-nav.logo img{
+    width: 200px;
+    padding: 10px 10px;
+    display: block;
+}
+
+.main-nav.files{
+    padding-right: 10px;
+}
+
 .nav-heading{
     color: rgb(43, 224, 122);
     font-size: 20px;
-    padding-right: 50px;
 }
 
 .sub-nav{
     font-size: 13px;
     display: none;
-    /* display:grid; */
 }
-
 
 .sub-nav-text{
     padding: 0 15px;
     margin: 8px 0 8px;
-    display: inline;
 }
 
 .works-section{
     margin: 0 0 10px;
 }
 
-.how-we-works-image{
+.how-we-works.image img{
     width: 100%;
     height: 720px;
-    background-image: linear-gradient(to right, rgb(43, 224, 122), rgba(255, 255, 255, 0));
+    background-attachment: fixed;
     position: relative;
 }
 
-.how-we-works-text{
+.how-we-works.text{
     text-shadow: 2px 1px green;
     padding: 0 40px;
     background: none;
@@ -172,11 +174,19 @@ h4{
     height: 200px;
 }
 
+.services-we-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 30px;
+}
+
 .our-services-card{
-    display: inline-block;
-    width: 25%;
     height: 250px;
     margin: 20px 28px;
+    flex: 1 1 25%;
 }
 
 .our-services-card p{
@@ -184,9 +194,7 @@ h4{
     padding: 0 10px;
     margin: 8px 0 8px;
     height: 100px;
-    display:flex;
-    flex-direction:column;
-    text-align:center;
+    text-align: center;
 }
 
 h5 {
@@ -203,22 +211,36 @@ h6 {
     height: 100px;
 }
 
-.working-process div{
-    width: 60%;
-    height: 200px;
+.working-process{
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 10px;
+}
+
+.working-process div{
+    height: 200px;
 }
 
 .working-process p{
     font-size: 20px;
     padding: 0 15px;
     margin: 10px 0 10px;
-    text-align: left;
+    text-align: center;
+}
+
+.products-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 10px;
 }
 
 .product{
-    display: inline-block;
     margin: 15px 20px 10px;
 }
 
@@ -235,11 +257,24 @@ h6 {
     color: rgb(191, 194, 191);
 }
 
+.industries-we-serve-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    /* gap: 10px; */
+}
+
 .industries-we-serve-list h6{
     width: 24%;
     height: 250px;
     margin: 20px 20px 20px ;
-    display: inline-block;
+    flex: auto;
+}
+
+.trusted-section{
+    display: none;
 }
 
 .trusted-by img{
@@ -249,6 +284,10 @@ h6 {
     display: inline-block;
 }
 
+.client-section{
+    display: none;
+}
+
 .clients-reviews img{
     width: 23%;
     height: 250px;
@@ -256,11 +295,24 @@ h6 {
     display: inline-block;
 }
 
+.blogs-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 10px;
+}
+
 .blogs-news img{
     width: 23%;
     height: 250px;
     margin: 20px 20px 20px ;
-    display: inline-block;
+    flex:auto;
+}
+
+.faqs-section{
+    display: none;
 }
 
 .faqs .faqs-list{
@@ -341,15 +393,13 @@ h3.go-map{
     margin: 6px 0 6px;
     vertical-align: 350%;
     text-align: center;
-    display: inline-flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 img.go-map{
     width: 750px;
     height:300px;
     margin: 10px 10px 10px;
-    display: inline-block;
     border: 6px solid rgb(144, 136, 136);
 }
 
