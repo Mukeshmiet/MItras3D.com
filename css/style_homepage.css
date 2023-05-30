@@ -42,7 +42,7 @@ a.call-us-no, a.email-us-email{
 }
 
 .whatsapp{
-    padding-right: 750px;
+    padding-right: 700px;
 }
 
 .i-need-help{
@@ -104,19 +104,30 @@ nav{
 
 .how-we-works-image{
     width: 100%;
+    height: 720px;
+    background-image: linear-gradient(to right, rgb(43, 224, 122), rgba(255, 255, 255, 0));
+    position: relative;
 }
 
 .how-we-works-text{
+    text-shadow: 2px 1px green;
     padding: 0 40px;
+    background: none;
+    position: absolute;
+    top: 280px;
+    left: 60px;
 }
 
 .works-quote-head{
     font-size: 65px;
+    background: none;
     
 }
 
 h4{
     margin: 12px 0 12px;
+    color: whitesmoke;
+    background: none;
 }
 
 .works-quote-head-para{
@@ -125,21 +136,31 @@ h4{
 
 .works-quote-head-para p{
     margin: 12px 0 12px;
+    color: whitesmoke;
+    background: none;
 }
 
 .works-quote-offers{
     font-size: 20px;
     padding: 0 60px;
     margin: 10px 0 10px;
+    background: none;
 }
 
-.works-quote-offers li{
+.works-quote-offers li, .works-quote-offers ul{
     margin: 8px 0 8px;
+    color: whitesmoke;
+    background: none;
 }
 
 .works-quote-offers-button{
     font-size: 35px;
+    padding: 5px 15px;
+    border-radius: 7px;
     color: rgb(43, 224, 122);
+    position: absolute;
+    top: 670px;
+    left: 100px;
 }
 
 .banners-section{
