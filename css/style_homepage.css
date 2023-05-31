@@ -2,25 +2,30 @@
 /* least priority to 1` change all elements */
 * {
     font-family: 'DM Sans', sans-serif;
-    color: rgb(144, 136, 136);
+    color: rgb(186, 181, 181);
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0;
     margin: 0 0;
 }
 
-.body-container {
+/* .body-container {
     width: 99%;
-    margin: 0 5px;
-}
+    margin: 0 20px;
+} */
 
 /* Maintain order */
 
 a:hover,
 .sub-nav-text:hover {
     color: rgb(43, 224, 122);
-    font-weight: bold;
+    opacity: 0.7;
+    /* font-weight: bold; */
     /* text-decoration: underline wavy rgb(43, 224, 122); */
+}
+
+a:active{
+    opacity: 0.9;
 }
 
 a:active .sub-nav-text:hover {
@@ -71,17 +76,25 @@ a.email-us-email {
     flex-wrap: wrap;
     align-content: center;
     gap: 60px;
-
+    /* box-shadow: 0 5px 15px rgb(0, 0, 0); */
+    background-color: rgb(16, 16, 16);
+    /* opacity: 1; */
 }
+.main-nav, .main-nav img{
+    background-color: rgb(16, 16, 16);
+}
+
 
 .main-nav.logo {
     flex: 0 1 400px;
+    /* background-color: rgb(16, 16, 16); */
 }
 
 .main-nav.logo img {
     width: 200px;
     padding: 10px 10px;
     display: block;
+    border-radius: 15px;
 }
 
 .main-nav.files {
@@ -91,6 +104,7 @@ a.email-us-email {
 .nav-heading {
     color: rgb(43, 224, 122);
     font-size: 20px;
+    background-color: rgb(16, 16, 16);
 }
 
 .sub-nav {
@@ -105,17 +119,17 @@ a.email-us-email {
 
 .works-section {
     margin: 0 0 10px;
+    /* display: none; */
 }
 
 .how-we-works.image img {
     width: 100%;
     height: 720px;
-    background-attachment: fixed;
     position: relative;
 }
 
 .how-we-works.text {
-    text-shadow: 2px 1px green;
+    text-shadow: 2px 1px rgb(16, 16, 16);
     padding: 0 40px;
     background: none;
     position: absolute;
@@ -162,7 +176,7 @@ h4 {
 .works-quote-offers-button {
     font-size: 35px;
     padding: 5px 15px;
-    border-radius: 7px;
+    border-radius: 50px;
     color: rgb(43, 224, 122);
     position: absolute;
     top: 670px;
@@ -176,6 +190,7 @@ h4 {
 .featured-banners {
     width: 100%;
     height: 200px;
+    border-radius: 5px;
 }
 
 .services-we-offers {
@@ -195,6 +210,7 @@ h4 {
 
 .our-services-card p {
     font-size: 16px;
+    line-height: 1.5;
     padding: 0 10px;
     margin: 8px 0 8px;
     height: 100px;
@@ -251,6 +267,7 @@ h6 {
 .products-images img {
     width: 100%;
     height: 250px;
+    border-radius: 6px;
 }
 
 .indu-para {
@@ -404,7 +421,8 @@ img.go-map {
     width: 750px;
     height: 300px;
     margin: 10px 10px 10px;
-    border: 6px solid rgb(144, 136, 136);
+    border: 2px solid rgb(144, 136, 136);
+    border-radius: 30px;
 }
 
 #copyright {
