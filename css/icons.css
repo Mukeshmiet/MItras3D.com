@@ -1,0 +1,23 @@
+/* ICONS */
+.header-svg {
+  vertical-align: middle;
+  padding-right: 2px;
+  align-items: center;
+  color: rgb(186, 181, 181);
+}
+
+/* FOR NAV ICONS */
+.main-nav img {
+  width: 22px;
+  padding-left: 3px;
+  background-color: rgb(16, 16, 16);
+  vertical-align: bottom;
+}
+
+/* SERVICES ICONS */
+.service-icon {
+  color: rgb(188, 177, 177);
+  width: 80px;
+  height: 80px;
+  padding-bottom: 20px;
+}
