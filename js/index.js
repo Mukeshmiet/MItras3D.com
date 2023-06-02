@@ -8,7 +8,7 @@ var swiper_banner = new Swiper(".mySwiper-1", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      delay: 2500,
+      delay: 4500,
       disableOnInteraction: false,
     },
     pagination: {
