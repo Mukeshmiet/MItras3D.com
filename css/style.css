@@ -229,6 +229,58 @@ h4 {
   gap: 20px;
 }
 
+
+.working-process{
+  width: 100vw;
+  /* height: 3200px; */
+  column-gap: 50px;
+  row-gap: 60px;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: grid ;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.working-process img{
+  border-radius: 10px;
+  box-shadow: 2px 5px 20px -12px #939393;
+  
+  /* background-color: #000000; */
+}
+
+.working-process .img-right{
+  padding-left: 50px;
+  border-left: 1px solid rgba(43, 224, 121, 0.556);
+}
+
+.working-process .img-left{
+  text-align: end;
+  padding-right: 50px;
+  border-right: 1px solid rgba(43, 224, 121, 0.556);
+}
+
+.working-process p{
+  font-size: 20px;
+  text-align: end;
+  /* background-color: #000000; */
+}
+
+.share p, .modify p, .removal p, .delivery p{
+  padding-left: 200px;
+  
+}
+
+.analysis p, .printing p, .painting p, .feedback p{
+  text-align: start;
+  padding-right: 200px;
+}
+
+/* .working-process div{
+  background-color: rgb(0, 0, 0);
+} */
+
 .services-we-offers {
   display: flex;
   justify-content: center;
@@ -279,25 +331,7 @@ h6 {
   /* vertical-align:text-bottom; */
 }
 
-.working-process {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  gap: 10px;
-}
-
-.working-process div {
-  height: 200px;
-}
-
-.working-process p {
-  font-size: 20px;
-  padding: 0 15px;
-  margin: 10px 0 10px;
-  text-align: center;
-}
+/* PRODUCTs */
 
 .products-images {
   display: flex;
@@ -316,28 +350,34 @@ h6 {
   width: 100%;
   height: 250px;
   border-radius: 6px;
+  box-shadow: 2px 5px 20px -12px #939393;
 }
 
 .indu-para {
   font-size: 20px;
   padding: 0 15px;
-  margin: 10px 0 40px;
+  margin: 10px 0 100px;
+  color: rgb(89, 236, 153);
   text-align: center;
-  color: rgb(191, 194, 191);
+  /* color: rgb(191, 194, 191); */
 }
 
 .industries-we-serve-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  text-align: center;
   /* gap: 10px; */
 }
 
-.industries-we-serve-list h6 {
-  width: 24%;
+.industries-we-serve-list div{
+  margin-top: 122px;
   height: 250px;
+}
+
+.industries-we-serve-list h6 {
+  /* width: 24%;
+  height: 250px; */
   margin: 20px 20px 20px;
   flex: auto;
 }

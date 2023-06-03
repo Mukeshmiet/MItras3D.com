@@ -53,3 +53,19 @@
 .our-services-card p:hover, .our-services-card h6:hover, .our-services-card img:hover {
   color: rgb(43, 224, 122);
 }
+
+/* HOW WE WORKS ...................................................................   */
+
+.working-process p:hover{
+  color: rgb(43, 224, 122);
+}
+
+.working-process img:hover{
+  box-shadow: 2px 5px 20px -6px rgb(43, 224, 121);
+}
+
+/* PRODUCTS ...................................................................   */
+
+.products-images img:hover{
+  box-shadow: 2px 5px 20px -3px rgb(43, 224, 121);
+}

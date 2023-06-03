@@ -1,7 +1,6 @@
 
 /* SWIPER */
 
-/* Banner ............................................................................   */
 .swiper-slide {
   /* text-align: center; */
   /* font-size: 18px; */
@@ -11,31 +10,10 @@
   align-items: center;
 }
 
-.swiper-slide .featured-banners {
-  display: block;
-  object-fit: cover;
-}
-
-/* SERVICE ............................................................................   */
 .swiper {
   width: 100%;
   height: 100%;
   position: relative;
-}
-
-.swiper-slide {
-  /* text-align: center; */
-  /* font-size: 18px; */
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-}
-
-.swiper-slide .our-services-card {
-  display: block;
-  /* width: 20%;*/
-  height: 500px;
-  object-fit: cover;
 }
 
 .swiper-button-next,
@@ -59,4 +37,28 @@
   /* color: rgb(43, 224, 122) !important; */
   display: none;
   /* vertical-align: bottom; */
+}
+
+/* Banner ............................................................................   */
+
+.swiper-slide .featured-banners {
+  display: block;
+  object-fit: cover;
+}
+
+/* SERVICE ............................................................................   */
+
+.swiper-slide .our-services-card {
+  display: block;
+  object-fit: cover;
+  height: 500px;
+}
+
+/* PRODUCTs ............................................................................   */
+
+.swiper-slide .product img {
+  display: block;
+  object-fit: cover;
+  height: 250px;
+  margin-bottom: 150px;
 }

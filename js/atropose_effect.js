@@ -288,9 +288,164 @@ const myAtropos_28 = Atropos({
   highlight: false,
 });
 
+// HOW WE WORKS
 
+const myAtropos_29 = Atropos({
+  el: '.my-atropos-29',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
 
+const myAtropos_30 = Atropos({
+  el: '.my-atropos-30',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
 
+const myAtropos_31 = Atropos({
+  el: '.my-atropos-31',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
 
+const myAtropos_32 = Atropos({
+  el: '.my-atropos-32',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
 
+const myAtropos_33 = Atropos({
+  el: '.my-atropos-33',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
 
+const myAtropos_34 = Atropos({
+  el: '.my-atropos-34',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_35 = Atropos({
+  el: '.my-atropos-35',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_36 = Atropos({
+  el: '.my-atropos-36',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
+
+const myAtropos_37 = Atropos({
+  el: '.my-atropos-37',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
+
+const myAtropos_38 = Atropos({
+  el: '.my-atropos-38',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_39 = Atropos({
+  el: '.my-atropos-39',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_40 = Atropos({
+  el: '.my-atropos-40',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
+
+const myAtropos_41 = Atropos({
+  el: '.my-atropos-41',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
+
+const myAtropos_42 = Atropos({
+  el: '.my-atropos-42',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_43 = Atropos({
+  el: '.my-atropos-43',
+  rotate: true,
+  alwaysActive: false,
+  rotateXMax: 2,
+  rotateYMax: 2,
+  activeOffset: 10,
+  highlight: false,
+});
+
+const myAtropos_44 = Atropos({
+  el: '.my-atropos-44',
+  rotate: false,
+  alwaysActive: false,
+  // rotateXMax: 2,
+  // rotateYMax: 2,
+  activeOffset: 20,
+  highlight: false,
+});
