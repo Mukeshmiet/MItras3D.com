@@ -69,3 +69,33 @@
 .products-images img:hover{
   box-shadow: 2px 5px 20px -3px rgb(43, 224, 121);
 }
+
+/* INDUSTRIES WE SERVE ...................................................................   */
+
+.industries-we-serve-list h6:hover{
+  font-size: 21px;
+  position: relative;
+  top: -210px;
+  margin: 0 0 0;
+  padding: 60px 0;
+  color: rgb(43, 224, 121);
+  background-color: rgba(0, 0, 0, 0.375);
+}
+
+.industries-we-serve-list img:hover{
+  box-shadow: 2px 5px 20px -12px #93939360;
+}
+
+/* FOOTER ...................................................................   */
+
+.footer-nav-head a:hover{
+  color: rgb(43, 224, 122);
+}
+
+.footer-nav-head a:active{
+  color: #eaff96;
+}
+
+#laws a:hover{
+  color: #d6ffe8;
+}

@@ -1,6 +1,36 @@
 /* ATROPOSE ............................................................................   */
 
-/* .atropos-inner{ */
+/* MAP */
+
+footer .atropos-inner{
+  display: inline-block;
+  width: 750px;
+  height: 300px;
+  /* margin: 10px 10px 10px; */
+  /* border: 2px solid rgb(144, 136, 136); */
+  border-radius: 30px;
+}
+
+footer .atropos-rotate{
+  display: inline-block;
+  width: 750px;
+  height: 300px;
+  
+}
+
+footer .atropos-scale{
+  display: inline-block;
+  width: 750px;
+  height: 300px;
+
+}
+
+footer .atropos.my-atropos-map{
+  display: inline-block;
+  width: 750px;
+  height: 300px;
+
+}
 /* width: 100%;
   box-shadow: 0px 10px 20px -6px #00ff77f7; */
 /* display: none; */

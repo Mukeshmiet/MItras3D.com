@@ -3,6 +3,7 @@
 
 
 // ALTROPOS
+// top page
 const myAtropos = Atropos({
     el: '.my-atropos',
     rotate: true,
@@ -17,6 +18,8 @@ const myAtropos = Atropos({
     // shadowScale: 1,
     // durationEnter: 1000,
 });
+
+//services
 
 const myAtropos_2 = Atropos({
   el: '.my-atropos-2',
@@ -448,4 +451,21 @@ const myAtropos_44 = Atropos({
   // rotateYMax: 2,
   activeOffset: 20,
   highlight: false,
+});
+
+// google map
+
+const myAtroposMap = Atropos({
+  el: '.my-atropos-map',
+  rotate: true,
+  // rotateTouch: true,
+  alwaysActive: false,
+  rotateXMax: 1.5,
+  rotateYMax: 1.5,
+  activeOffset: 15,
+  highlight: false,
+  // shadow: true,
+  // shadowOffset: 50,
+  // shadowScale: 1,
+  // durationEnter: 1000,
 });

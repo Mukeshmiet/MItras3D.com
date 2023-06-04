@@ -52,6 +52,7 @@ a.email-us-email {
   column-gap: 10px;
   background-color: rgb(16, 16, 16);
   margin-bottom: 10px;
+  /* position: sticky; */
 }
 
 /* display: flex;
@@ -367,19 +368,25 @@ h6 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   text-align: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 100px;
   /* gap: 10px; */
 }
 
-.industries-we-serve-list div{
-  margin-top: 122px;
-  height: 250px;
+.industries-we-serve-list h6{
+  font-size: 20px;
+  position: relative;
+  top: -210px;
+  margin: 0 0 0;
+  padding: 60px 0;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.597);
 }
 
-.industries-we-serve-list h6 {
-  /* width: 24%;
-  height: 250px; */
-  margin: 20px 20px 20px;
-  flex: auto;
+.industries-we-serve-list img{
+  border-radius: 5px;
+  box-shadow: 2px 5px 20px -12px #ffffff;
 }
 
 .trusted-section {
@@ -402,6 +409,10 @@ h6 {
   height: 250px;
   margin: 20px 20px 20px;
   display: inline-block;
+}
+
+.bNn-section{
+  display: none;
 }
 
 .blogs-news {
@@ -453,22 +464,27 @@ h6 {
 
 footer {
   width: 100%;
-  height: 680px;
+  height: 695px;
   border-top: 1px solid rgb(191, 194, 191);
 }
 
-footer span {
-  margin: 30px 15px 30px;
-}
-
-.footer-nav-head {
-  width: 13%;
-  height: 200px;
+.footer-head {
+  height: 225px;
   font-size: 16px;
   text-align: center;
-  padding: 0 8px;
+  padding-top: 20px;
   /* margin: 30px 0 10px; */
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.footer-nav-head a{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 14px;
+  padding-top: 10px;
+  row-gap: 5px;
+  color: rgb(255, 255, 255);
 }
 
 .join-us {
@@ -485,11 +501,16 @@ footer span {
   display: block;
 }
 
+.join-us div{
+  width: 30px;
+  height: 30px;
+}
+
 .join-us img {
-  width: 120px;
-  height: 120px;
-  padding: 3px 25px;
-  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  padding: 33px 55px;
+  display: inline-block;
   align-items: center;
   vertical-align: bottom;
 }
@@ -513,10 +534,19 @@ img.go-map {
   border-radius: 30px;
 }
 
+#laws{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 #copyright {
   /* font-size: 10px; */
   padding: 4px 0;
-  margin: 60px 0 10px;
+  margin: 10px 0 10px;
   border-top: 2px solid rgb(43, 224, 122);
   border-bottom: 2px solid rgb(43, 224, 122);
   display: block;
