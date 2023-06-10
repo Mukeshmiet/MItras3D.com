@@ -2,45 +2,51 @@
 
 /* MAP */
 
+html {
+  /* default 1.6rem */
+  /* 1rem / 1.6rem = 0.625  */
+  font-size: 62.5%;   /* current 1rem = 1rem */
+}
+
 footer .atropos-inner{
   display: inline-block;
-  width: 750px;
-  height: 300px;
-  /* margin: 10px 10px 10px; */
-  /* border: 2px solid rgb(144, 136, 136); */
-  border-radius: 30px;
+  width: 75rem;
+  height: 30rem;
+  /* margin: 1rem 1rem 1rem; */
+  /* border: 0.2rem solid rgb(144, 136, 136); */
+  border-radius: 3rem;
 }
 
 footer .atropos-rotate{
   display: inline-block;
-  width: 750px;
-  height: 300px;
+  width: 75rem;
+  height: 30rem;
   
 }
 
 footer .atropos-scale{
   display: inline-block;
-  width: 750px;
-  height: 300px;
+  width: 75rem;
+  height: 30rem;
 
 }
 
 footer .atropos.my-atropos-map{
   display: inline-block;
-  width: 750px;
-  height: 300px;
+  width: 75rem;
+  height: 30rem;
 
 }
 /* width: 100%;
-  box-shadow: 0px 10px 20px -6px #00ff77f7; */
+  box-shadow: rem 1rem 2rem -0.6rem #00ff77f7; */
 /* display: none; */
 
 
 
 /* .text-over {
   position: absolute;
-  bottom: 90px;
-  left: 30px;
+  bottom: 9rem;
+  left: 3rem;
   color: white;
   font-weight: bold;
   font-size: 180%;
@@ -49,8 +55,8 @@ footer .atropos.my-atropos-map{
 
 /* .text-over-2 {
   position: absolute;
-  bottom: 60px;
-  left: 30px;
+  bottom: 6rem;
+  left: 3rem;
   color: white;
   font-weight: bold;
   font-size: 180%;

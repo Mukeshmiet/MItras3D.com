@@ -1,3 +1,10 @@
+
+html {
+  /* default 1.6rem */
+  /* 1rem / 1.6rem = 0.625  */
+  font-size: 62.5%;   /* current 1rem = 1rem */
+}
+
 /* BUTTON EFFECT */
 /* Maintain order */
 
@@ -23,13 +30,13 @@
 
 .nav-heading:active, .sub-nav-text:active {
   color: #d6ffe8;
-  border: 16px #d3ded6;
+  border: 1.6rem #d3ded6;
 }
 
 .main-nav.quote button:hover {
   color: #eaff96;
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, .15) 0 0.3rem 0.9rem 0;
+  transform: translateY(-0.2rem);
 }
 
 .main-nav.quote button:active{
@@ -40,12 +47,12 @@
 
 .works-quote-offers-button:hover {
   color: rgb(43, 224, 122);
-  box-shadow: 4px 7px 10px #031509;
+  box-shadow: 0.4rem 0.7rem 1rem #031509;
 }
 
 .works-quote-offers-button:active {
   color: rgb(43, 224, 122);
-  box-shadow: -4px -6px 10px #031509;
+  box-shadow: -0.4rem -0.6rem 1rem #031509;
 }
 
 /* SERVICES CARDS ...................................................................   */
@@ -61,32 +68,38 @@
 }
 
 .working-process img:hover{
-  box-shadow: 2px 5px 20px -6px rgb(43, 224, 121);
+  box-shadow: 0.2rem 0. 5rem 2rem -0.6rem rgb(43, 224, 121);
 }
 
 /* PRODUCTS ...................................................................   */
 
 .products-images img:hover{
-  box-shadow: 2px 5px 20px -3px rgb(43, 224, 121);
+  box-shadow: 0.2rem 0.5rem 2rem -0.3rem rgb(43, 224, 121);
 }
 
 /* INDUSTRIES WE SERVE ...................................................................   */
 
 .industries-we-serve-list h6:hover{
-  font-size: 21px;
-  position: relative;
-  top: -210px;
+  /* font-size: 2.1rem; */
+  /* position: relative; */
+  /* top: -21rem; */
   margin: 0 0 0;
-  padding: 60px 0;
+  /* padding: 6rem 0; */
   color: rgb(43, 224, 121);
-  background-color: rgba(0, 0, 0, 0.375);
+  /* background-color: rgba(0, 0, 0, 0.375); */
 }
 
 .industries-we-serve-list img:hover{
-  box-shadow: 2px 5px 20px -12px #93939360;
+  box-shadow: 0.2rem 0.5rem 2rem -1.2rem #93939360;
 }
 
 /* FOOTER ...................................................................   */
+
+html {
+  /* default 1.6rem */
+  /* 1rem / 1.6rem = 0.625  */
+  font-size: 62.5%;   /* current 1rem = 1rem */
+}
 
 .footer-nav-head a:hover{
   color: rgb(43, 224, 122);
