@@ -59,7 +59,9 @@ a.email-us-email {
   column-gap: 0.7vw;
   background-color: rgb(16, 16, 16);
   margin-bottom: 1rem;
-  /* position: sticky; */
+  position: sticky;
+  top:0;
+  z-index: 2;
 }
 
 /* display: flex;
@@ -74,6 +76,7 @@ a.email-us-email {
 
 .logo-div {
   background-color: rgb(16, 16, 16);
+  /* position: sticky; */
 }
 
 .nav-div {
@@ -84,19 +87,23 @@ a.email-us-email {
   align-content: center;
   /* gap: 2rem ; */
   padding-right: 5rem;
+  /* position: sticky; */
 }
 
 .main-nav {
   background-color: rgb(16, 16, 16);
+  /* position: sticky; */
 }
 
 .main-nav a {
   background-color: rgb(16, 16, 16);
+  /* position: sticky; */
 }
 
 .main-nav.logo img {
   width: 20rem;
   background-color: rgb(16, 16, 16);
+  /* position: sticky; */
 }
 
 .main-nav.quote button {
@@ -106,6 +113,7 @@ a.email-us-email {
   font-size: 1.2rem;
   transform: translateY(0);
   transition: transform 150ms, box-shadow 150ms;
+  /* position: sticky; */
 }
 
 
@@ -113,17 +121,20 @@ a.email-us-email {
   color: #A3A3A3;
   font-size: 1.2rem;
   background-color: rgb(16, 16, 16);
+  /* position: sticky; */
 }
 
 /* SUB NAVIGATION */
 .sub-nav {
   font-size: 1.2rem;
   display: none;
+  /* position: sticky; */
 }
 
 .sub-nav-text {
   padding: 0 1.5rem;
   margin: 0.8rem 0 0.8rem;
+  /* position: sticky; */
 }
 
 /*  HOW we WORKs  */
@@ -505,10 +516,11 @@ h6 {
 
 footer {
   width: 100vw;
-  height: 69.5rem;
+  height: 65rem;
   border-top: 0.1rem solid rgb(191, 194, 191);
   display: flex;
   flex-direction: column;
+  /* gap: 2rem; */
 }
 
 .footer-head {
@@ -532,7 +544,8 @@ footer {
 
 .join-googlemap {
   display: flex;
-  padding: 2rem;
+  padding: 2rem 2rem;
+  height: 31rem;
   /* flex: auto; */
   vertical-align: bottom;
   align-items: center;
@@ -542,7 +555,7 @@ footer {
 
 .join-us {
   width: 35rem;
-  height: 31rem;
+  height: 25rem;
   border-right: 0.3rem solid rgb(144, 136, 136);
   display: flex;
   flex-direction: column;
@@ -561,13 +574,14 @@ footer {
 .follow-link{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 24.3vw;
+  width: 18.3vw;
+  row-gap: 3rem;
+  padding: 3.3rem 0;
 }
 
 .join-us img {
-  width: 6rem;
-  height: 6rem;
-  padding: 3.3rem 5.5rem;
+  /* width: 6rem;
+  height: 6rem; */
   display: inline-block;
   align-items: center;
   vertical-align: bottom;
@@ -585,9 +599,9 @@ h3.go-map {
 }
 
 img.go-map {
-  width: 100%;
-  height: 100%;
-  margin: 1rem 1rem 1rem;
+  width: 70%;
+  height: 80%;
+  margin: 2rem 1rem 1rem;
   border: 0.2rem solid rgb(144, 136, 136);
   border-radius: 3rem;
 }
@@ -597,7 +611,7 @@ img.go-map {
     grid-template-columns: repeat(9,1fr);
     font-size: 1.2rem;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     width: 100vw;
 }
@@ -605,7 +619,7 @@ img.go-map {
 #copyright {
   /* font-size: 1rem; */
   padding: 0.4rem 0;
-  margin: 1rem 0 1rem;
+  margin: 0 0 1rem;
   border-top: 0.2rem solid rgb(43, 224, 122);
   border-bottom: 0.2rem solid rgb(43, 224, 122);
   display: block;
