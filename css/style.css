@@ -145,7 +145,7 @@ a.email-us-email {
 .works-section {
   margin: 0 0 0.1rem;
   vertical-align:middle;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   align-content: center;
   /* display: none; */
@@ -162,8 +162,8 @@ a.email-us-email {
 }
 
 .how-we-works.image img {
-  width: 95%;
-  height: 60rem;
+  width: 95vw;
+  height: 42.8vw;
   border-radius: 1.5rem;
   /* box-shadow: 0 1rem 2rem -0.6rem #51ffa23e; */
   /* background: linear-gradient(to top left, green, white); */
@@ -177,8 +177,8 @@ a.email-us-email {
     rgba(255, 255, 255, 0),
     rgb(0, 113, 45)
   );
-  width: 95%;
-  height: 60rem;
+  width: 95vw;
+  height: 42.8vw;
   /* width: 131rem;
   height: 58rem; */
   /* margin-left: 4rem; */
@@ -193,55 +193,55 @@ a.email-us-email {
   padding: 0 4rem;
   background: none;
   position: absolute;
-  top: 6rem;
-  left: 6rem;
+  top: 3vw;
+  left: 6vw;
 }
 
 .works-quote-head {
-  font-size: 6.5rem;
+  font-size: 5vw;
   background: none;
 }
 
 h4 {
-  margin: 1.2rem 0 3rem;
+  margin: 0.8vw 0 2vw;
   color: whitesmoke;
   background: none;
 }
 
 .works-quote-head-para {
-  font-size: 2.5rem;
+  font-size: 1.8vw;
 }
 
 .works-quote-head-para p {
-  margin: 1.2rem 0 3rem;
+  margin: 1vw 0 2vw;
   color: whitesmoke;
   background: none;
 }
 
 .works-quote-offers {
-  font-size: 2rem;
-  padding: 0 6rem;
-  margin: 1rem 0 1rem;
+  font-size: 1.5vw;
+  padding: 0 3vw;
+  margin: 0.8vw 0 0.8vw;
   background: none;
 }
 
 .works-quote-offers li,
 .works-quote-offers ul {
-  margin: 0.8rem 0 0.8rem;
+  margin: 0.6vw 0 0.6vw;
   color: whitesmoke;
   background: none;
 }
 
 .works-quote-offers-button {
-  font-size: 3.5rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5rem;
+  font-size: 2.5vw;
+  padding: 0.5vw 1vw;
+  border-radius: 0.8vw;
   color: rgb(43, 224, 122);
   background-color: #000000;
-  box-shadow: 0 1rem 1rem #031509;
+  box-shadow: 0 0.8vw 0.8vw #031509;
   position: absolute;
-  top: 42rem;
-  left: 4rem;
+  top: 30vw;
+  left: 4vw;
   /* background-image: linear-gradient(to bottom, transparent 0%, white 100%); */
 }
 
