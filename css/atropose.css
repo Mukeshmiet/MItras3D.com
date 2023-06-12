@@ -10,7 +10,7 @@ html {
 
 footer .atropos-inner{
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   /* margin: 1rem 1rem 1rem; */
   /* border: 0.2rem solid rgb(144, 136, 136); */
@@ -19,25 +19,25 @@ footer .atropos-inner{
 
 footer .atropos-rotate{
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   
 }
 
 footer .atropos-scale{
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 
 }
 
 footer .atropos.my-atropos-map{
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 
 }
-/* width: 100%;
+/* max-width: 100%;
   box-shadow: rem 1rem 2rem -0.6rem #00ff77f7; */
 /* display: none; */
 

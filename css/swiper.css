@@ -17,7 +17,7 @@ html {
 }
 
 .swiper {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: relative;
 }
@@ -26,7 +26,7 @@ html {
 .swiper-button-prev {
   color: rgb(186, 181, 181);
   position: absolute;
-  top: 120rem;
+  top: 90vw;
 }
 
 .swiper-pagination {
@@ -57,7 +57,7 @@ html {
 .swiper-slide .our-services-card {
   display: block;
   object-fit: cover;
-  height: 50rem;
+  height: 38vw;
 }
 
 /* PRODUCTs ............................................................................   */

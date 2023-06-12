@@ -43,7 +43,7 @@
 }
 .atropos-rotate,
 .atropos-scale {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition-property: transform;
@@ -62,14 +62,14 @@
   background: #000;
   left: 0;
   top: 0;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   filter: blur(3rem);
 }
 .atropos-highlight {
   left: -50%;
   top: -50%;
-  width: 200%;
+  max-width: 200%;
   height: 200%;
   background-image: radial-gradient(
     circle at 50%,
@@ -82,7 +82,7 @@
   position: relative;
 }
 .atropos-inner {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
