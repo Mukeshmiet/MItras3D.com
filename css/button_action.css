@@ -12,6 +12,7 @@ html {
 
 .header-all-value a:hover {
   color: rgb(43, 224, 122);
+  transition: all 500ms;
 }
 
 .header-all-value a:active {
@@ -23,6 +24,7 @@ html {
 .nav-heading:hover,
 .sub-nav-text:hover {
   color: rgb(43, 224, 122);
+  transition: all 500ms;
   /* opacity: 0.7; */
   /* font-weight: bold; */
   /* text-decoration: underline wavy #2be07a; */
@@ -48,6 +50,7 @@ html {
 .works-quote-offers-button:hover {
   color: rgb(43, 224, 122);
   box-shadow: 0.4rem 0.7rem 1rem #031509;
+  transition: all 500ms;
 }
 
 .works-quote-offers-button:active {
@@ -59,12 +62,14 @@ html {
 
 .our-services-card p:hover, .our-services-card h6:hover, .our-services-card img:hover {
   color: rgb(43, 224, 122);
+  transition: all 500ms;
 }
 
 /* HOW WE WORKS ...................................................................   */
 
 .working-process p:hover{
   color: rgb(43, 224, 122);
+  transition: all 500ms;
 }
 
 .working-process img:hover{
@@ -84,6 +89,7 @@ html {
   /* position: relative; */
   /* top: -21rem; */
   margin: 0 0 0;
+  transition: all 500ms;
   /* padding: 6rem 0; */
   color: rgb(43, 224, 121);
   /* background-color: rgba(0, 0, 0, 0.375); */
@@ -103,6 +109,7 @@ html {
 
 .footer-nav-head a:hover{
   color: rgb(43, 224, 122);
+  transition: all 500ms;
 }
 
 .footer-nav-head a:active{
