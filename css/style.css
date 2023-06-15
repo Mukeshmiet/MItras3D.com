@@ -9,6 +9,7 @@
   text-decoration: none;
   padding: 0;
   margin: 0 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -17,10 +18,10 @@ html {
   font-size: 62.5%;   /* current 1rem = 1rem */
 }
 
-/* .body-container {
-    width: 99%;
-    margin: 0 2rem;
-} */
+body {
+    max-width: 100vw;
+  background-color: #000000;
+}
 
 .header-all-value {
   margin: 0.8vw 0 0;
@@ -107,6 +108,7 @@ a.email-us-email {
   width: 15vw;
   background-color: rgb(16, 16, 16);
   /* position: sticky; */
+  margin-left: 2vw;
 }
 
 .main-nav.quote button {
@@ -326,10 +328,10 @@ h6 {
   width: 100%;
   /* height: 320rem; */
   column-gap: 5vw;
-  row-gap: 6rem;
+  row-gap: 3vw;
   align-items: center;
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
   display: grid ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -338,25 +340,25 @@ h6 {
 
 .working-process img{
   width: 24vw;
-  border-radius: 1rem;
+  border-radius: 0.4vw;
   box-shadow: 0.2rem 0.5rem 2rem -1.2rem #939393;
   
   /* background-color: #000000; */
 }
 
 .working-process .img-right{
-  padding-left: 5rem;
+  padding-left: 4vw;
   border-left: 0.1rem solid rgba(43, 224, 121, 0.556);
 }
 
 .working-process .img-left{
   text-align: end;
-  padding-right: 5rem;
+  padding-right: 4vw;
   border-right: 0.1rem solid rgba(43, 224, 121, 0.556);
 }
 
 .working-process p{
-  font-size: 2rem;
+  font-size: 1.8vw;
   text-align: end;
   /* background-color: #000000; */
 }
@@ -377,6 +379,10 @@ h6 {
 
 /* PRODUCTs */
 
+.shop-section{
+  display: none;
+}
+
 .products-images {
   display: flex;
   justify-content: center;
@@ -384,7 +390,6 @@ h6 {
   flex-wrap: wrap;
   align-content: center;
   gap: 1rem;
-  display: none;
 }
 
 .product {
@@ -398,8 +403,10 @@ h6 {
   box-shadow: 0.2rem 0.5rem 2rem -1.2rem #939393;
 }
 
+/* // Industries we serves */
+
 .indu-para {
-  font-size: 2rem;
+  font-size: 1.5vw;
   padding: 0 1.5rem;
   margin: 1rem 0 10rem;
   color: rgb(89, 236, 153);
@@ -409,7 +416,7 @@ h6 {
 
 .industries-section{
   width: 95%;
-  margin: 0 2.5% 10rem;
+  margin: 0 2.5% 8vw;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
@@ -425,8 +432,8 @@ h6 {
   grid-template-rows: auto;
   text-align: center;
   justify-items: center;
-  align-items: center;
-  row-gap: 8rem;
+  align-items: baseline;
+  row-gap: 5.5vw;
   column-gap: 5.3vw;
   /* width: 100%; */
   padding: 0 0;
@@ -437,11 +444,11 @@ h6 {
 }
 
 .industries-we-serve-list h6{
-  font-size: 1.6rem;
+  font-size: 1.2vw;
   /* position: relative; */
   /* top: -15rem; */
   margin: 0 0 0;
-  padding: 1rem 0;
+  padding: 0.8vw 0;
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.597);
 }
@@ -527,9 +534,11 @@ h6 {
   text-align: center;
 }
 
+/* Footer */
+
 footer {
   width: 100vw;
-  height: 65rem;
+  height: 40vw;
   border-top: 0.1rem solid rgb(191, 194, 191);
   display: flex;
   flex-direction: column;
@@ -538,10 +547,10 @@ footer {
 }
 
 .footer-head {
-  height: 22.5rem;
-  font-size: 1.6rem;
+  /* height: 22.5rem; */
+  font-size: 1.4vw;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1.2vw;
   /* margin: 3rem 0 1rem; */
   display: grid;
   grid-template-columns: repeat(5,1fr);
@@ -550,16 +559,16 @@ footer {
 .footer-nav-head a{
   display: grid;
   grid-template-columns: 1fr;
-  font-size: 1.4rem;
-  padding-top: 1rem;
+  font-size: 1vw;
+  padding-top: 0.8vw;
   row-gap: 0.5rem;
   color: rgb(255, 255, 255);
 }
 
 .join-googlemap {
   display: flex;
-  padding: 2rem 2rem;
-  height: 31rem;
+  padding: 1.2vw 1.2vw 0;
+  height: 20vw;
   /* flex: auto; */
   vertical-align: bottom;
   align-items: center;
@@ -568,8 +577,8 @@ footer {
 }
 
 .join-us {
-  width: 35rem;
-  height: 25rem;
+  width: 25vw;
+  height: 15vw;
   border-right: 0.3rem solid rgb(144, 136, 136);
   display: flex;
   flex-direction: column;
@@ -577,20 +586,20 @@ footer {
 }
 
 .join-us p {
-  font-size: 3.5rem;
+  font-size: 2.4vw;
   margin: 0 0 0;
   text-align: center;
   display: block;
-  height: 4rem;
-  width: 12rem;
+  height: 3vw;
+  width: 8vw;
 }
 
 .follow-link{
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 18.3vw;
-  row-gap: 3rem;
-  padding: 3.3rem 0;
+  row-gap: 2vw;
+  padding: 1.6vw 0;
 }
 
 .join-us img {
@@ -623,11 +632,10 @@ img.go-map {
 #laws{
     display: grid;
     grid-template-columns: repeat(9,1fr);
-    font-size: 1.2rem;
+    font-size: 0.8vw;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 100vw;
+    padding:1.5vw;
+    /* width: 100vw; */
 }
 
 #copyright {
