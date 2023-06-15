@@ -110,10 +110,17 @@ html {
 .footer-nav-head a:hover{
   color: rgb(43, 224, 122);
   transition: all 500ms;
+  background-color: rgba(43, 224, 121, 0.29);
+  border-radius: 0.8vw;
 }
 
 .footer-nav-head a:active{
   color: #eaff96;
+}
+
+.follow-link img:hover{
+  background-color: rgba(43, 224, 121, 0.29);
+  border-radius: 0.8vw;
 }
 
 #laws a:hover{
