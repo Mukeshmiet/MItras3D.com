@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\mitra3d.in\website\virtualenv"
+VIRTUAL_ENV="F:\mitra3d.in\website\Mitras3D.com\virtualenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
