@@ -31,8 +31,8 @@ html {
 }
 
 .swiper-pagination {
-  /* background-color: #27262600; */
-  /* background-color: rgb(120, 252, 177) !important;
+  /* background-color: #27262600;
+  background-color: rgb(120, 252, 177) !important;
   color: rgb(43, 224, 122) !important; */
   display: none;
   /* vertical-align: bottom; */

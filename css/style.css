@@ -410,7 +410,7 @@ h6 {
 .indu-para {
   font-size: 1.5vw;
   padding: 0 1.5rem;
-  margin: 1rem 0 10rem;
+  margin: 4vw 0 8vw;
   color: rgb(89, 236, 153);
   text-align: center;
   /* color: rgb(191, 194, 191); */
@@ -595,7 +595,7 @@ footer {
   text-align: center;
   display: block;
   height: 3vw;
-  width: 8vw;
+  width: 10vw;
 }
 
 .follow-link{
@@ -607,8 +607,7 @@ footer {
 }
 
 .join-us img {
-  /* width: 6rem;
-  height: 6rem; */
+  width: 4vw;
   display: inline-block;
   align-items: center;
   vertical-align: bottom;
