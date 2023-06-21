@@ -607,7 +607,8 @@ footer {
 }
 
 .join-us img {
-  width: 4vw;
+  /* width: 6rem;
+  height: 6rem; */
   display: inline-block;
   align-items: center;
   vertical-align: bottom;
