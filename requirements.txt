@@ -10,3 +10,4 @@ MarkupSafe==2.1.2
 sqlparse==0.4.4
 tzdata==2023.3
 Werkzeug==2.3.4
+nodejs==0.1.1
