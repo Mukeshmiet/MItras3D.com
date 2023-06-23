@@ -7,6 +7,8 @@ html {
 
 /* ICONS */
 .header-svg {
+  width: 1.2vw;
+  height: 1.2vw;
   vertical-align: middle;
   padding-right: 0.2rem;
   align-items: center;

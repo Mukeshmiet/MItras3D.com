@@ -575,7 +575,7 @@ footer {
 .join-googlemap {
   display: flex;
   padding: 1.2vw 1.2vw 0;
-  height: 20vw;
+  height: 25vw;
   /* flex: auto; */
   vertical-align: bottom;
   align-items: center;
@@ -585,7 +585,7 @@ footer {
 
 .join-us {
   width: 25vw;
-  height: 15vw;
+  /* height: 15vw; */
   border-right: 0.3rem solid rgb(144, 136, 136);
   display: flex;
   flex-direction: column;
@@ -634,9 +634,9 @@ h3.go-map {
 }
 
 img.go-map {
-  width: 80%;
-  height: 80%;
-  margin: 2rem 1rem 1rem;
+  width: 50vw;
+  height: 12vw;
+  margin: 1rem 1rem 1rem;
   border-radius: 1rem;
   /* border: inset 0.2rem solid rgb(144, 136, 136); */
 }
