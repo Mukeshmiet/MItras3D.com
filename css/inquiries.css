@@ -65,6 +65,7 @@ a.email-us-email {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 0.7vw;
   background-color: rgb(16, 16, 16);
+  margin-bottom: 0 !important;
   position: sticky;
   top:0;
   z-index: 10;
@@ -148,64 +149,109 @@ a.email-us-email {
   /* position: sticky; */
 }
 
-/*  ABOUT US  */
+/*  Inquiries  */
 
-.about-us{
-  background-color: #131313;
+.inquiries{
+  background-color: #252424;
 }
 
-.about-container{
+.inquiries-container{
   display: flex;
   flex-direction: column;
   margin: 0 5vw;
-
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
 }
 
-h5.about {
+h5.inq {
   font-size: 3.2vw;
   padding: 0;
-  margin: 4vw 0  2vw;
-  text-align:start;
-  color: #e3e8e3;
+  margin: 4vw 0  1vw;
+  text-align:center;
+  vertical-align: middle;
+  color: #61d261;
 }
 
-.about-us h6 {
+.inquiries-container p{
   font-size: 1.6vw;
+  padding: 0;
+  margin: 1vw 0 2vw;
+  text-align: center;
+  vertical-align: middle;
+  color: #e8dddd;
+}
+
+.contact-row{
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  margin: 0 0 2vw;
+}
+
+.quote-forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2vw;
+  column-gap: 1vw;
+  padding-bottom: 4vw;
+}
+
+.services-card {
+  padding: 0.8vw 2.5vw;
+  height: 30vw;
+  margin: 1.6vw 2vw;
+  /* width here */
+  /* flex: 1 1 20%;  */
+}
+
+.services-card:hover{
+  background-color: rgba(43, 224, 121, 0.29);
+  border-radius: 0.8vw;
+}
+
+.inquiries .inside-header-value a{
+  color: rgb(43, 224, 122)!important;
+}
+
+.inquiries .inside-header-value a:hover {
+  color: #eaff96 !important;
+  transition: all 500ms;
+}
+
+.inquiries .inside-header-value a:active {
+  color: rgb(233, 252, 241) !important;
+}
+
+.quote-icon {
+  /* color: greenyellow !important; */
+  width: 5vw;
+  height: 5vw;
+  padding-bottom: 1.6vw;
+}
+
+.services-head{
+  font-size: 1.2vw;
   word-spacing: 0.3vw;
-  letter-spacing: 0.1rem;
-  margin: 4vw 0 2vw;
+  /* letter-spacing: 0.1rem; */
+  margin: 2vw 0 1.8vw;
   padding-bottom: 1.8vw;
   color: rgb(223, 234, 223);
-  text-align:start;
-  /* text-align: center; */
-  /* height: 10rem; */
-  /* vertical-align:text-bottom; */
 }
 
-.about-us p {
-  font-size: 1.4vw;
-  margin: 0 2vw;
-  text-align: left;
+.services-para{
+  font-size: 0.8vw;
+  line-height: 1.7;
   word-spacing: 0.3vw;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1rem;
+  height: 20rem;
+  /* padding-bottom: 3rem; */
+  margin: 0.6vw 0 0.6vw;
+  /* height: 12vw; */
+  color: rgb(255, 255, 255);
 }
 
-.about-us li {
-  font-size: 1.3vw;
-  margin: 1vw 0 0 6vw;
-  text-align: left;
-}
-
-.about-us li span{
-  color: rgb(245, 229, 229);
-}
-
-p.about-para{
-  font-size: 1.5vw;
-  margin: 0 0.8vw;
-  margin: 8vw 0 8vw;
-  text-align: center;
-}
 /* Footer */
 
 footer {
@@ -318,7 +364,7 @@ img.go-map {
 }
 
 #copyright {
-  /* font-size: 1rem; */
+  font-size: 1vw;
   padding: 0.4rem 0;
   margin: 0 0 1rem;
   border-top: 0.2rem solid rgb(43, 224, 122);
