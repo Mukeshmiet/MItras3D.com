@@ -41,6 +41,7 @@ html {
 }
 
 .sub-nav-text:hover{
+  font-weight: 600;
   background-color: rgba(43, 224, 121, 0.29);
   border-radius: 0.2vw;
 }
@@ -51,6 +52,7 @@ html {
 }
 
 .main-nav.quote button:hover {
+  font-weight: 600;
   color: #eaff96;
   box-shadow: rgba(0, 0, 0, .15) 0 0.3rem 0.9rem 0;
   transform: translateY(-0.2rem);
@@ -63,13 +65,18 @@ html {
 /* GET A QUOTE BUTTON ...................................................................   */
 
 .works-quote-offers-button:hover {
-  color: rgb(43, 224, 122);
+  font-weight: 600;
+  padding: 0.5vw 1vw;
+  border-radius: 0.8vw;
+  color: #031509;
+  background-color: rgb(43, 224, 122);
   box-shadow: 0.4rem 0.7rem 1rem #031509;
-  transition: all 500ms;
+  transition: all 200ms;
 }
 
 .works-quote-offers-button:active {
   color: rgb(43, 224, 122);
+  background-color: #f2f2f2;
   box-shadow: -0.4rem -0.6rem 1rem #031509;
 }
 

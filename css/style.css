@@ -163,50 +163,26 @@ a.email-us-email {
 
 /*  HOW we WORKs  */
 
-.works-section {
-  margin: 0 0 0.1rem;
-  vertical-align:middle;
-  /* text-align: center; */
-  align-items: center;
-  align-content: center;
-  /* display: none; */
-}
-
-.how-we-works.image {
-  /* padding: 1rem 4rem; */
+.background-image {
+  margin: 0 2.5vw 0 2.5vw;
+  width: 95vw;
+  height: 36.8vw;
+  border-radius: 1.5rem;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  vertical-align:middle;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-}
-
-.how-we-works.image img {
-  width: 95vw;
-  height: 42.8vw;
-  border-radius: 1.5rem;
-  /* box-shadow: 0 1rem 2rem -0.6rem #51ffa23e; */
-  /* background: linear-gradient(to top left, green, white); */
+  overflow: hidden;
   position: relative;
-  /* display: none; */
+  box-shadow: 0 0 2rem rgba(43, 224, 121, 0.4);
 }
 
-.image-grad {
-  background: linear-gradient(
-    to top left,
-    rgba(255, 255, 255, 0),
-    rgb(0, 113, 45)
-  );
+.how-we-works.image {  
   width: 95vw;
   height: 42.8vw;
-  /* width: 131rem;
-  height: 58rem; */
-  /* margin-left: 4rem; */
-  /* padding-right: -0.2rem; */
-  border-radius: 1.5rem;
-  margin: 0 0;
-  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgb(0, 113, 45)),
+                    url(../images/our-work-HQ.webp);
 }
 
 .how-we-works.text {
@@ -214,7 +190,7 @@ a.email-us-email {
   padding: 0 4rem;
   background: none;
   position: absolute;
-  top: 3vw;
+  top: 7.5vw;
   left: 6vw;
   /* display: none; */
 }
