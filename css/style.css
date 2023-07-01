@@ -16,7 +16,7 @@
 
 html {
   /* default 1.6rem */
-  /* 1rem / 1.6rem = 0.625  */
+  /* 1px / 1.6rem = 0.625  */
   font-size: 62.5%;   /* current 1rem = 1rem */
   scroll-behavior: smooth;
 }
@@ -40,8 +40,8 @@ body {
 }
 
 .inside-header-value {
-  padding: 0 0.8vw;
-  font-size: 0.8vw;
+  padding: 0 1rem;
+  font-size: 1rem;
 }
 
 .inside-header-value.three {
@@ -136,6 +136,10 @@ a.email-us-email {
   font-size: 1vw;
   background-color: rgba(16, 16, 16, 0);
   /* position: sticky; */
+}
+
+.side-menu{
+  display: none;
 }
 
 /* SUB NAVIGATION */
