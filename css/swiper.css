@@ -28,6 +28,7 @@ html {
   position: absolute;
   top: 90vw;
   z-index: 9;
+  display: none;
 }
 
 .swiper-pagination {
