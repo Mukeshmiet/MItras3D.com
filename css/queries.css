@@ -19,6 +19,7 @@ font-size: 62.5%;   /* current 1rem = 1rem */
 /* 900px */
 @media (max-width: 56.25em){
     
+    /* HEADER SECTION */
     header .inside-header-value {
         font-size: 1.2rem;
     }
@@ -26,6 +27,8 @@ font-size: 62.5%;   /* current 1rem = 1rem */
     .whatsapp, .email-us, .call-us {
         display: none;
         }
+    
+    /* NAVIGATION SECTION */
     
     nav .side-menu{
         display: flex ;
@@ -63,6 +66,8 @@ font-size: 62.5%;   /* current 1rem = 1rem */
     nav .nav-div{
         position: absolute;
         justify-content: center;
+        align-items: flex-end;
+        padding-right: 6rem;
         top:100%; left: 0; right: 0;
         border-top: 0.1rem solid rgb(74, 162, 112);
         flex-direction: column;
@@ -81,13 +86,18 @@ font-size: 62.5%;   /* current 1rem = 1rem */
         font-size: 1.5rem ;
     }
 
+    nav .main-nav .sub-nav{
+        align-content: flex-end !important;
+    }
+
     nav .sub-nav{
         font-size: 1.5rem ;
         position: absolute ;
         top: 0 ;
-        width: 35rem ;
-        left: -28rem ;
-        gap: 1.5rem ;
+        width: 30rem ;
+        left: -30rem ;
+        padding: 2rem 4rem 1vw 0;
+        align-items: flex-end;     
     }
 
     nav .main-nav.quote button {
@@ -95,4 +105,233 @@ font-size: 62.5%;   /* current 1rem = 1rem */
         font-size: 1.5rem ;
     }
 
+    /* WORKS SECTION */
+
+    .works-section .background-image {
+        margin-top: 2rem;
+        /* width: 90vw; */
+        height: 50vw;
+    }
+
+    .works-section .how-we-works.image {
+        height: 50vw;
+        background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgb(0, 113, 45)),
+                    url(../images/our-work-HQ_1.webp);
+    }
+
+    .works-section .how-we-works.text {
+        top: 10rem;
+        left: 2rem;
+        text-align: center;
+    }
+
+    .works-section .works-quote-head {
+        font-size: 5.5rem;
+      }
+    
+    .works-section .works-quote-head-para {
+        font-size: 3.5rem;
+      }
+    
+    .works-section .works-quote-offers li{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        list-style: none;
+      }
+
+    .works-section .works-quote-offers-button {
+        font-size: 2.6rem;
+        font-weight: 600;
+        top: 37rem;
+        left: 74vw;
+        background-color: rgb(43, 224, 122);
+        color: #000000;
+    }
+
+    /* WORKS SECTION */
+
+    .service-card-section .our-services-card,
+    .service-card-section .swiper-slide .our-services-card {
+        width: 70vw;
+        height: 40rem;
+        text-align: center;
+      }
+
+    section h5 {
+        font-size: 4rem;
+      }
+      
+    .service-card-section h6 {
+        font-size: 2rem;
+      }
+    
+    .service-card-section .our-services-card p {
+        font-size: 1.5rem;
+      }
+
+    /* WE WORKS TOGETHER SECTION */
+
+    .working-section .working-process p{
+        font-size: 2rem;
+      }
+    
+    .working-section .share p, .working-section .modify p,
+    .working-section .removal p, .working-section .delivery p{
+        padding-left: 15rem;
+    }
+
+    .working-section .analysis p, .working-section .printing p,
+    .working-section .painting p, .working-section .feedback p{
+        padding-right: 15rem;
+      }
+
+    /* INDUSTRIES SECTION */
+
+    .industries-section p{
+        font-size: 2rem;
+    }
+
+    .industries-section .industries-we-serve-list{
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+
+    .industries-section .industries-we-serve-list{
+        width: 75vw;
+    }
+
+    .industries-section .industries-we-serve-list div{
+        width: 17rem;
+    }
+
+    .industries-section .industries-we-serve-list h6{
+        font-size: 2rem;
+    }
+
+    /* Footer Section */
+
+    footer .footer-head{
+        font-size: 1.8rem;
+        column-gap: 2rem;
+        margin-bottom: 3rem;
+      }
+
+    footer .footer-nav-head a{
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+      }
+
+    footer .join-googlemap {
+        display: inline-block;
+      }
+    
+    footer .follow-link{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: space-between;
+        
+    }
+
+    footer .join-us {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        border: 0;
+        text-align: center;
+    }
+
+    footer .join-us p{
+        display: inline-block;
+        margin-left: 2rem;
+    }
+
+    footer .join-us img {
+        width: 2rem;
+    }
+
+    footer img.go-map{
+        display: none;
+    }
+
+    footer #laws{
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+
+    footer #copyright {
+        font-size: 0.8rem;
+    }
+
+    /* INQUIRIES PAGE */
+    
+    .inquiries-container h5.inq{
+        font-size: 4.5rem;
+    }
+
+    .inquiries .inquiries-container p{
+        font-size: 2rem;
+    }
+
+    .inquiries .contact-row{
+        display: none;
+    }
+
+    .inquiries .quote-forms {
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-content: center;
+        row-gap: 3rem;
+      }
+
+    .inquiries .services-card {
+        height: 30rem;
+      }
+
+    .inquiries .services-head{
+        font-size: 2rem;
+      }
+    
+    .inquiries .services-para{
+        font-size: 1.2rem;
+      }
+    
+    .inquiries .quote-icon {
+        width: 5rem;
+        height: 5rem;
+      }
+
+
+    /*  ABOUT US PAGE */
+
+    .about-us-section .about-container{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .about-us-section h5.about {
+        font-size: 4.5rem;
+    }
+
+    .about-us-section .h5-text{
+        font-size: 2rem;
+    }
+    
+    .about-us-section .about-container h6{
+        font-size: 2.2rem ;
+    }
+
+    .about-us-section .about-container .para{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    .about-us-section ul li {
+        font-size: 1.5rem;
+    }
+    
+    .about-us-section p.about-para{
+        font-size: 2rem;
+        color: bisque;
+    }
 }

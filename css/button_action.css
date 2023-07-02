@@ -26,7 +26,7 @@ html {
   flex-wrap: wrap;
   flex: 0 1 12vw;
   flex-direction: column;
-  align-items: start;
+  /* align-items: start; */
   align-content: center;
   gap: 1vw;
 }
@@ -79,6 +79,7 @@ nav .side-menu button:hover {
   color: rgb(43, 224, 122);
   background-color: #f2f2f2;
   box-shadow: -0.4rem -0.6rem 1rem #031509;
+  text-shadow: rgb(16, 16, 16) 0.15rem 0.15rem 0.15rem;
 }
 
 /* SERVICES CARDS ...................................................................   */
