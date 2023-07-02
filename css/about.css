@@ -28,6 +28,10 @@ body {
 
 /* HEADER */
 
+.allcontact{
+  display: none;
+}
+
 .header-all-value {
   margin: 0.8vw 0 0;
   padding-bottom: 0.8vw;
@@ -150,7 +154,7 @@ a.email-us-email {
 
 /*  ABOUT US  */
 
-.about-us{
+.about-us-section{
   background-color: #131313;
 }
 
@@ -169,7 +173,7 @@ h5.about {
   color: #e3e8e3;
 }
 
-.about-us h6 {
+.about-us-section h6 {
   font-size: 1.6vw;
   word-spacing: 0.3vw;
   letter-spacing: 0.1rem;
@@ -182,7 +186,7 @@ h5.about {
   /* vertical-align:text-bottom; */
 }
 
-.about-us p {
+.about-us-section p {
   font-size: 1.4vw;
   margin: 0 2vw;
   text-align: left;
@@ -190,13 +194,13 @@ h5.about {
   letter-spacing: 0.05rem;
 }
 
-.about-us li {
+.about-us-section li {
   font-size: 1.3vw;
   margin: 1vw 0 0 6vw;
   text-align: left;
 }
 
-.about-us li span{
+.about-us-section li span{
   color: rgb(245, 229, 229);
 }
 
