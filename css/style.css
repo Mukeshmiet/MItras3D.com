@@ -3,6 +3,13 @@
 
 /* #2be07a */
 
+* :focus{
+  outline:solid;
+  outline-offset: 2px;
+  outline-width: thin;
+  outline-color: rgb(89, 236, 153);
+}
+
 * {
   font-family: "DM Sans", sans-serif;
   color: rgb(186, 181, 181);
