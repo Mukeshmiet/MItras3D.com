@@ -7,14 +7,12 @@
     <meta
       name="description"
       content="Mitras3D is a leading additive manufacturing 
-    company based in Uttar Pradesh, India. We provide comprehensive services in Mechanical
-     Engineering and Additive Manufacturing, including 3D printing, rapid prototyping,
-      product design, and customized manufacturing solutions. Explore our cutting-edge
-       technologies and innovative solutions for your manufacturing needs."
+         company based in Uttar Pradesh, India. We provide comprehensive services in Mechanical
+         Engineering and Additive Manufacturing, including 3D printing, rapid prototyping,
+         product design, and customized manufacturing solutions. Explore our cutting-edge
+         technologies and innovative solutions for your manufacturing needs."
     />
-
     <link rel="icon" href="../images/logo's/logo_67x67px.png" />
-
     <link rel="apple-touch-icon" href="../images/logo's/apple-touch-icon.png" />
     <link rel="manifest" href="../manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,10 +34,8 @@
     <link rel="stylesheet" href="../css/button_action.css" />
     <!-- <link rel="stylesheet" href="../css/swiper.css"> -->
     <link rel="stylesheet" href="../css/atropose.css" />
-
-    <title>About MItras3D</title>
+    <title>Ecommerce Security Statement</title>
   </head>
-
   <body>
     <header>
       <section class="header-all-value">
@@ -129,7 +125,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <ul class="sub-nav">
             <li>
               <a href="./services.html"
@@ -172,7 +167,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <div class="sub-nav">
             <a href="./materials.html"
               ><span class="sub-nav-text">PLA (Normal)</span></a
@@ -200,7 +194,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <div class="sub-nav">
             <a href="./help.html"><span class="sub-nav-text">Help</span></a>
             <a href="./FAQs.html"><span class="sub-nav-text">FAQs</span></a>
@@ -236,7 +229,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <div class="sub-nav">
             <a href="./automation.html"
               ><span class="sub-nav-text">Automation</span></a
@@ -264,7 +256,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <div class="sub-nav">
             <a href="./store.html"
               ><span class="sub-nav-text">My Store</span></a
@@ -284,7 +275,6 @@
             src="../images/Icons/down.svg"
             alt=" 3d printing service meerut Uttar Pradesh delhi NCR noida FDM printing additive manufacturing product prototype CAD 2d drafting engraving laser modeling rendering simulation  more option"
           />
-
           <div class="sub-nav">
             <a href="./about_us.html"
               ><span class="sub-nav-text">About Us</span></a
@@ -324,75 +314,99 @@
     <main>
       <section class="about-us-section">
         <div class="about-container">
-          <h5 class="about">About</h5>
+          <h5 class="about">Ecommerce Security Statement</h5>
+          <h1 style="text-align: start; font-size: 1.5rem; font-weight: 800">
+            Effective Date: 01/09/2023
+          </h1>
+          <br /><br /><br /><br />
           <p class="h5-text">
-            Mitras3D is a cutting-edge startup specializing in providing
-            high-quality 3D printing services. We are passionate about
-            leveraging the latest advancements in technology to transform ideas
-            into tangible objects. With our CAD (Computer-Aided Design) and FDM
-            (Fused Deposition Modeling) services, we bring your imagination to
-            life.
+            At Mitras3D, we prioritize the security of our customers' online
+            transactions. We understand the importance of protecting your
+            sensitive information during ecommerce transactions and have
+            implemented robust security measures to ensure a safe and secure
+            shopping experience. This Ecommerce Security Statement outlines our
+            practices to safeguard your data during online transactions.
           </p>
-          <h6 class="about-cad">CAD Services</h6>
+          <h6 class="about-cad">1. Secure Socket Layer (SSL) Encryption:</h6>
           <p class="para">
-            At Mitras3D, we understand the importance of precise design when it
-            comes to 3D printing. Our CAD services are tailored to meet your
-            specific requirements, ensuring that your designs are accurately
-            translated into 3D models. Whether you have a concept in mind or
-            need assistance with designing a new product from scratch, our
-            experienced team of CAD experts is here to help. We utilize
-            industry-standard software and follow best practices to create
-            detailed and optimized 3D models that are ready for the next step of
-            the printing process.
+            We use industry-standard SSL encryption technology to establish a
+            secure connection between your browser and our website. This
+            encryption ensures that all data transmitted between your device and
+            our servers remains encrypted and protected from unauthorized access
+            during the checkout process.
           </p>
-          <h6 class="about-fdm">FDM Services</h6>
+          <h6 class="about-cad">
+            2. Payment Card Industry Data Security Standard (PCI DSS)
+            Compliance:
+          </h6>
           <p class="para">
-            Fused Deposition Modeling (FDM) is one of the most popular and
-            versatile 3D printing technologies available today. Mitras3D
-            specializes in offering FDM services, allowing you to transform your
-            digital designs into physical objects with precision and efficiency.
-            Our state-of-the-art FDM printers utilize thermoplastic materials,
-            such as PLA and ABS, to build layer by layer, resulting in durable
-            and functional 3D prints.
+            We adhere to PCI DSS compliance requirements when processing payment
+            card transactions. This standard ensures the secure handling of
+            cardholder data and sets strict guidelines for the processing,
+            storage, and transmission of payment card information.
           </p>
-          <h6 class="about-why">Why Choose Mitras3D</h6>
-          <ul>
-            <li>
-              <span>Quality:</span> We prioritize delivering high-quality prints
-              that meet your expectations. Our meticulous attention to detail
-              ensures that every aspect of your design is accurately reproduced.
-            </li>
-            <li>
-              <span>Flexibility:</span> We understand that every project is
-              unique. Whether you need a single prototype or a batch production,
-              we offer flexible printing options to cater to your specific
-              needs.
-            </li>
-            <li>
-              <span>Fast Turnaround:</span> Time is of the essence, especially
-              for startups. Mitras3D is committed to providing quick turnaround
-              times without compromising on quality, allowing you to move
-              forward with your projects efficiently.
-            </li>
-            <li>
-              <span>Expert Support:</span> Our team of experts is dedicated to
-              assisting you throughout the entire process. From initial design
-              consultations to troubleshooting, we provide personalized support
-              to ensure your experience with Mitras3D is seamless.
-            </li>
-            <li>
-              <span>Competitive Pricing:</span> We believe that 3D printing
-              should be accessible to all. Mitras3D offers competitive pricing
-              structures, allowing you to benefit from our services without
-              breaking the bank.
-            </li>
-          </ul>
+          <h6 class="about-fdm">3. Trusted Payment Gateways:</h6>
+          <p class="para">
+            We partner with reputable and certified payment gateways to process
+            online payments securely. These payment service providers employ
+            advanced security measures and comply with industry standards to
+            protect your payment information. We do not store or retain your
+            payment card details on our servers.
+          </p>
+          <h6 class="about-cad">4. Secure Account Creation and Access:</h6>
+          <p class="para">
+            When you create an account on our website, we require you to choose
+            a strong, unique password. We recommend using a combination of
+            letters, numbers, and special characters. We also implement secure
+            login mechanisms to protect against unauthorized access to your
+            account.
+          </p>
+          <h6 class="about-fdm">5. Regular Security Updates:</h6>
+          <p class="para">
+            We continuously monitor and update our ecommerce platform and
+            associated software to address potential vulnerabilities and
+            security risks. We promptly apply security patches and updates to
+            ensure that our systems remain protected against emerging threats.
+          </p>
+          <h6 class="about-cad">6. Fraud Prevention Measures:</h6>
+          <p class="para">
+            We employ sophisticated fraud prevention tools and practices to
+            detect and mitigate fraudulent activities. These measures include
+            transaction monitoring, IP geolocation analysis, and verification
+            procedures to protect both our customers and our business.
+          </p>
+          <h6 class="about-fdm">7. Employee Training and Awareness:</h6>
+          <p class="para">
+            We provide regular training to our employees to enhance their
+            understanding of ecommerce security best practices. Our staff
+            members are educated on identifying and responding to potential
+            security threats and protecting customer information.
+          </p>
+          <h6 class="about-cad">8. Customer Privacy:</h6>
+          <p class="para">
+            We respect your privacy and handle your personal information in
+            accordance with applicable data protection laws. For more
+            information on how we collect, use, and protect your personal data,
+            please refer to our Privacy Policy.
+          </p>
+          <h6 class="about-fdm">9. Third-Party Security:</h6>
+          <p class="para">
+            We carefully vet and select third-party service providers and
+            partners who handle customer data during the ecommerce process.
+            These providers must meet our stringent security requirements to
+            ensure the safety of your information.
+          </p>
+          <h6 class="about-fdm">10. Continuous Monitoring and Improvement:</h6>
+          <p class="para">
+            We continuously monitor and assess our ecommerce security measures
+            to identify and address any potential vulnerabilities. We stay
+            informed about the latest security trends and updates to enhance our
+            security practices and technologies.
+          </p>
           <p class="about-para">
-            We are excited to partner with you on your 3D printing journey.
-            Whether you need rapid prototyping, product development, or
-            customized manufacturing solutions, Mitras3D is your trusted partner
-            for all your CAD and FDM needs. Contact us today to explore the
-            endless possibilities of additive manufacturing.
+            If you have any questions or concerns regarding the security of our
+            ecommerce platform or your online transactions, please contact us
+            using the details provided below.
           </p>
         </div>
       </section>
@@ -470,9 +484,9 @@
         <!-- <h3 class="go-map">On Google Map</h3> -->
         <a class="map-link" href="https://goo.gl/maps/NEFYJun22c8zYgKw7">
           <!-- <div class="atropos my-atropos-map">
-              <div class="atropos-scale">
-                  <div class="atropos-rotate">
-                      <div class="atropos-inner"> -->
+                  <div class="atropos-scale">
+                      <div class="atropos-rotate">
+                          <div class="atropos-inner"> -->
           <img
             class="go-map"
             src="../images/google-map.webp"
@@ -480,9 +494,9 @@
             title="Mitras3D on Google Map"
           />
           <!-- </div>
-                      </div>
                   </div>
-              </div> -->
+                  </div>
+                  </div> -->
         </a>
       </div>
       <span id="laws">
@@ -501,7 +515,6 @@
         rights reserved.</span
       >
     </footer>
-
     <!-- JAVASCRIPT -->
     <script defer src="../js/index.js"></script>
     <!-- <script defer src="../js/swiper.js"></script> -->
