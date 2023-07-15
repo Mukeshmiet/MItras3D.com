@@ -187,16 +187,20 @@ h5.inq {
   color: #e8dddd;
 }
 
-.contact-row{
+section.inquiries .contact-row{
   display: flex;
   vertical-align: middle;
   text-align: center;
   align-items: center;
-  margin: 0 0 2vw;
+  margin: 0 0 5vw;
 }
 
+section.inquiries .whatsapp, section.inquiries .email-us, section.inquiries .call-us {
+  display: inline-block;
+  }
+
 .inquiries .contact-row div{
-  font-size: 1.5rem;
+  font-size: 1.8vw;
 }
 
 .quote-forms {
