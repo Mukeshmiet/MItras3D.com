@@ -255,7 +255,7 @@ font-size: 62.5%;   /* current 1rem = 1rem */
         width: 2.8vw;
     }
 
-    footer img.go-map, .locations{
+    footer a.map-link{
         display: none;
     }
 
