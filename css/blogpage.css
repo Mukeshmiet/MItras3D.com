@@ -98,7 +98,7 @@ nav .nav-blog {
 }
 
 .blog-body h1 {
-    color: rgb(176, 223, 123);
+    color: rgb(133, 200, 57);
     font-family: var(--font-family-headline);
     font-size: var(--font-size-scale-9);
     font-weight: 600;
@@ -115,7 +115,7 @@ nav .nav-blog {
     text-align: center;
     margin: 0 0 1rem 0;
     padding: 0;
-    color: rgb(179, 207, 173);
+    color: rgba(179, 183, 179, 0.737);
 }
 
 .blog-heading div {
