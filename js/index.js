@@ -28,3 +28,13 @@ setTimeout(() => {
     document.querySelector('.loader-container').style.pointerEvents = 'none';
 }, 3000); // 5000 milliseconds (5 seconds) in this example
 
+// navigation slider
+document.querySelector('.cate-dis').addEventListener('click', function (e) {
+e.preventDefault();
+// Matching strategy
+if (e.target.classList.contains('cates')) {
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({
+        behavior: 'smooth' });
+}
+});

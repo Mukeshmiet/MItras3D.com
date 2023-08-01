@@ -306,7 +306,7 @@ h5.blogblog{
     /* border-bottom: 0.3rem solid rgb(26, 26, 26); */
     justify-content: start;
     align-items: center;
-    margin: 2rem 0 2rem 0;
+    margin: 6rem 0 6rem 0;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(3, 120, 50));
 }
 
@@ -392,7 +392,7 @@ h5.blogblog{
     font-size: var(--font-size-scale-4);
     line-height: var(--line-height-scale-5);
     font-style: italic;
-    padding-bottom: 4rem;
+    padding: 4rem 2rem;
     color: rgb(179, 207, 173);
 }
 
