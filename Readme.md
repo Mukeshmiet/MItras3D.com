@@ -1,6 +1,6 @@
-Mitras3D - Dynamic Website for 3D Printing and CAD Services
+Mitras3D - Static Website for 3D Printing and CAD Services
 
-Mitras3D is a dynamic website that provides a comprehensive range of 3D printing and CAD (Computer-Aided Design) services. This repository serves as the central hub for the development and maintenance of the Mitras3D website.
+Mitras3D is a static website that provides a comprehensive range of 3D printing and CAD (Computer-Aided Design) services. This repository serves as the central hub for the development and maintenance of the Mitras3D website.
 
 Table of Contents
 Introduction
