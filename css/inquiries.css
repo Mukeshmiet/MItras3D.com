@@ -200,7 +200,8 @@ section.inquiries .whatsapp, section.inquiries .email-us, section.inquiries .cal
   }
 
 .inquiries .contact-row div{
-  font-size: 1.8vw;
+  /* //1.8vw  */
+  font-size: 1.4vw; 
 }
 
 .quote-forms {
