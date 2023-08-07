@@ -569,7 +569,7 @@ footer {
 .footer-nav-head a{
   display: grid;
   grid-template-columns: 1fr;
-  font-size: 1vw;
+  font-size: 1.4vw;
   margin-top: 0.8vw;
   row-gap: 0.5rem;
   color: rgb(255, 255, 255);

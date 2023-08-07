@@ -157,7 +157,11 @@ a.email-us-email {
 /*  Inquiries  */
 
 .inquiries{
+  display: flex;
   background-color: #252424;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .inquiries-container{
