@@ -157,6 +157,10 @@ a.email-us-email {
 /*  Inquiries  */
 
 .inquiries{
+  background-color: #252424;
+}
+
+.--contact{
   display: flex;
   background-color: #252424;
   height: 80vh;
@@ -193,6 +197,8 @@ h5.inq {
 
 section.inquiries .contact-row{
   display: flex;
+  flex-direction: column;
+  gap: 3vw;
   vertical-align: middle;
   text-align: center;
   align-items: center;
