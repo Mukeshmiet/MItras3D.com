@@ -1,4 +1,4 @@
-Mitras3D (www.mitras3d.com) - Static Website for 3D Printing and CAD Services
+Mitras3D (https://mukeshmiet.github.io/Mitras3D.com/ / www.mitras3d.com) - Static Website for 3D Printing and CAD Services
 
 Mitras3D is a static website that provides a comprehensive range of 3D printing and CAD (Computer-Aided Design) services. This repository serves as the central hub for the development and maintenance of the Mitras3D website.
 
